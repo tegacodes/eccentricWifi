@@ -1,0 +1,28 @@
+#Guide to setting up Raspberry Pi as wifi router
+
+## Before you start:
+What do you need?
+- ethernet cable with mini usb adapter 
+- raspberry pi (and all the power and screen/keyboard adapters to get it going).
+- SD card with  fresh install of Raspian. Do [this tutorial](https://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi/downloading-an-image) to see how to get this.
+- Pi wifi antennae - Olimex antennae. (There are lots out there. Many need specific drivers to work and are a pain to get up and running. I say this from experience. Save yourself lots of heartache and get this one).
+
+## What to have set up first:
+- make sure you have set up the wifi antennae on your pi and that you can wirelessly connect to the internet from it.
+
+## Big pic overview -> how are we going to do this?
+
+Then there are 3 things to set up.
+1) Interfaces file
+2) DHCP 
+3) 
+
+## The Interfaces file
+
+
+
+## Extra tips and notes for troubleshooting
+* Get the recommended antennae - there seems to be a whole world of trouble getting linux to read the drivers for other wifi units. It also means you have to go on all sorts of adventures trying to find the right XX to support it. I've never solved this problem and know lots of smart people who also have not, so enlighten me as to why this is such a pain or stick to the one mentioned.
+
+## Linux Help
+* [This really boring looking document](http://www.pathname.com/fhs/pub/fhs-2.3.pdf) is great for learning about file structure, so where the files are and where they should go. 
